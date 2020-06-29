@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name ="org.test.ListenerTest">
+</listener>
+</listeners>
+  <test name="Test">
+  <parameter name ="url" value="https://www.kogan.com/au/"/>
+  <parameter name ="username" value="sakila.m@gmail.com"/>
+  <parameter name ="password" value="ShakiOct31"/>
+  
+    <classes>
+      <class name="org.test.Execution"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
